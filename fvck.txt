@@ -651,7 +651,7 @@ function Library:create(options)
 		Position = UDim2.new(0, 5, 1, -6),
 		Size = UDim2.new(0.2, 0, 0, 10),
 		Font = Enum.Font.SourceSans,
-		Text = "Status | Idle",
+		Text = "v4",
 		Theme = {TextColor3 = "Tertiary"},
 		TextSize = 14,
 		TextXAlignment = Enum.TextXAlignment.Left
@@ -2846,7 +2846,7 @@ function Library:_theme_selector()
 		BackgroundTransparency = 1,
 		Position = UDim2.fromOffset(10, 5),
 		Size = UDim2.new(0.5, -10, 0, 22),
-		Text = "Theme",
+		Text = "Tema",
 		TextSize = 22,
 		Theme = {TextColor3 = "StrongText"},
 		TextXAlignment = Enum.TextXAlignment.Left
